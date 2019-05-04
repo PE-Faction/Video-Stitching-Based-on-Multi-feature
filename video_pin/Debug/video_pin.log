@@ -1,0 +1,34 @@
+﻿生成启动时间为 2019/5/4 9:58:11。
+     1>项目“E:\项目仓库\基于视频的图像拼接\video_pin\video_pin\video_pin.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2012\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib video_pin.cpp
+         video_pin.cpp
+     1>video_pin.cpp(56): warning C4018: “>”: 有符号/无符号不匹配
+     1>video_pin.cpp(140): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>video_pin.cpp(141): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>video_pin.cpp(272): warning C4018: “<”: 有符号/无符号不匹配
+     1>video_pin.cpp(278): warning C4018: “<”: 有符号/无符号不匹配
+     1>video_pin.cpp(297): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>video_pin.cpp(303): warning C4018: “>”: 有符号/无符号不匹配
+     1>video_pin.cpp(309): warning C4018: “<”: 有符号/无符号不匹配
+     1>video_pin.cpp(325): warning C4018: “<”: 有符号/无符号不匹配
+     1>video_pin.cpp(346): warning C4018: “<”: 有符号/无符号不匹配
+     1>video_pin.cpp(485): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>video_pin.cpp(486): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>video_pin.cpp(487): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>video_pin.cpp(518): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>video_pin.cpp(582): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv\opencv\build\include\opencv2\core\types_c.h(315): warning C4793: “cvRound”: 编译为本机的函数:
+         	托管代码中不支持内联本机程序集
+         D:\vs2012\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\14574\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         D:\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\项目仓库\基于视频的图像拼接\video_pin\Debug\video_pin.exe" /INCREMENTAL /NOLOGO opencv_ml249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_nonfree249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\项目仓库\基于视频的图像拼接\video_pin\Debug\video_pin.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\video_pin.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>opencv_ts249d.lib(opencv_ts_pch.obj) : warning LNK4099: 未找到 PDB“opencv_ts249d.pdb”(使用“opencv_ts249d.lib(opencv_ts_pch.obj)”或在“E:\项目仓库\基于视频的图像拼接\video_pin\Debug\opencv_ts249d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         video_pin.vcxproj -> E:\项目仓库\基于视频的图像拼接\video_pin\Debug\video_pin.exe
+     1>已完成生成项目“E:\项目仓库\基于视频的图像拼接\video_pin\video_pin\video_pin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.14
